@@ -154,6 +154,7 @@ ul li:hover{
 }
 #proyecto{
 	width: 25%;
+	border-radius: 5px;
 	background: #e2e4e6;
 	margin-left: 2%;
 	padding: 0.4%;
@@ -171,14 +172,33 @@ ul li:hover{
 }
 #proyecto button{
 	display: inline-block;
-	margin-top: 2%; 
 	padding: 3%;
+	margin-top: 2%;
 	border-radius: 5px;
 	border-style: none;
-	background: green;
+	background: #5aac44;
 	color: #fff;
+}
+#proyecto button:hover{
+	background: #3d732e;
+}
+.fa-times{
+	color: #999999;
+}
+.fa-times:hover{
+	color: #252525;
 }
 /*eventos*/
 .oculto{
 	display: none;
+}
+.visible{
+	display: inline-block;
+}
+#cont div{
+	width: 100%;
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	border-radius: 5px;
+	background-color: #e2e4e6;
 }
