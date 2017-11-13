@@ -136,14 +136,14 @@ ul li:hover{
 }
 
 .agregar{
-	width: 20%;
-	padding: 1%;
+	width: 100%;
+	padding: 3% 0 3% 0;
 	background: #026aa7;
 	border-style: none;
 	border-radius: 5px;
-	margin-left: 2%;
 }
 .agregar::placeholder{
+	margin-left: 2%;
 	color: #84adc4;
 }
 .agregar:focus{
@@ -153,22 +153,19 @@ ul li:hover{
 	background: #195485;
 }
 #proyecto{
-	width: 25%;
 	border-radius: 5px;
 	background: #e2e4e6;
-	margin-left: 2%;
-	padding: 0.4%;
+	padding: 1%;
 }
 #proyecto input{
 	display: block;
-	width: 95%;
-	padding: 2%;
-	border-radius: 5px;
+	width: 92%;
+	padding: 3%;
 	border-style: none;
-	border: 1px solid #000;
 }
 #proyecto input:focus{
-	outline: none;
+	outline: 2px solid #d5d5d9;
+	border-radius: 10px;
 }
 #proyecto button{
 	display: inline-block;
@@ -193,12 +190,49 @@ ul li:hover{
 	display: none;
 }
 .visible{
-	display: inline-block;
+	display: block;
 }
-#cont div{
-	width: 100%;
-	padding: 1em 0.5em;
+.col{
+	margin-left: 1%;
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+}
+.cont {
 	margin-bottom: 2em;
 	border-radius: 5px;
 	background-color: #e2e4e6;
 }
+.col p{
+	padding: 3%;
+}
+.tarjeta{
+	color: #000;
+	display: block;
+	background: #d4d5d8;
+	padding: 3%;
+}
+.text{
+	display:block;
+	margin: 3%;
+	width: 90%;
+	resize: none;
+}
+.text2{
+	resize: none;
+	display:block;
+	background-color: #eef2f5; 
+	/*border: none;*/
+	width: 60%;
+	margin: 3%;
+}
+.add{
+	display: inline-block;
+	padding: 3%;
+	margin: 3%;
+	border-radius: 5px;
+	border-style: none;
+	background: #5aac44;
+	color: #fff;
+}
+
