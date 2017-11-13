@@ -8,7 +8,9 @@ document.getElementById("lista").onclick = function(){
 document.getElementById("times").onclick = function(){
 	document.getElementById("proyecto").className = "oculto";
 	document.getElementById("lista").className = "visible";
+
 }
+
 /*agregar el texto al presionar guardar*/
 document.getElementById("crearLista").onclick = function(){
 	var nameListas= document.getElementById("nameLista").value;
@@ -66,9 +68,22 @@ document.getElementById("crearLista").onclick = function(){
 			var nodeChange  = nodes[nodes.length - 3];
 			//se cambia la clase al textarea que se agrega
 			nodeChange.className = "text2";
+			nodeChange.disabled = "true";
 			var textarea = document.createElement('textarea');
+			/*var edit = document.createElement('a');
+			edit.setAttribute('href', '#');
+			var editar = document.createElement('i');
+		    editar.classList.add("fa", "fa-pencil-square", "editar");*/
 			textarea.className = "text";
+			/*edit.appendChild(editar);
+			newListas.insertBefore(edit,button);*/
 			newListas.insertBefore(textarea, button);
+
+			//eliminar no se me ocurrio 
+			/*edit.addEventListener("click", function(){
+				textarea.className = "text";
+				textarea.disabled = "false";
+			})*/
 
 		})
 

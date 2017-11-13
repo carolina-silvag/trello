@@ -213,18 +213,22 @@ ul li:hover{
 	padding: 3%;
 }
 .text{
-	display:block;
+	display:inline-block;
 	margin: 3%;
 	width: 90%;
 	resize: none;
 }
 .text2{
 	resize: none;
-	display:block;
+	display:inline-block;
 	background-color: #eef2f5; 
 	/*border: none;*/
-	width: 60%;
+	width: 90%;
 	margin: 3%;
+}
+.add a{
+	text-decoration: none;
+	color:#fff;
 }
 .add{
 	display: inline-block;
@@ -233,6 +237,8 @@ ul li:hover{
 	border-radius: 5px;
 	border-style: none;
 	background: #5aac44;
-	color: #fff;
+}
+.editar{
+	display: inline-block;
 }
 
